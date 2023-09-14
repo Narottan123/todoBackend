@@ -23,8 +23,4 @@ const saveTodo = async (req, res) => {
 
 module.exports = { getTodo, saveTodo };
    
-    res.status(500).send("Server error");
-  }
-};
-
-module.exports = { getTodo, saveTodo, updateTodo, deleteTodo };
+   
